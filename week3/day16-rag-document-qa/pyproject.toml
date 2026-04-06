@@ -1,0 +1,13 @@
+[project]
+name = "rag-document-qa"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "chromadb",
+    "langchain",
+    "langchain-openai",
+    "langchain-community",
+    "pypdf2",
+]

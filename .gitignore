@@ -1,6 +1,36 @@
-.env
+# Python
 __pycache__/
-.venv/
 *.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Models (too large for git)
+*.bin
+*.safetensors
+*.gguf
+
+# Node
 node_modules/
+
+# Data
+*.pdf
+*.csv
+!sample-data/*.csv
+chroma_db/
+vector_store/
