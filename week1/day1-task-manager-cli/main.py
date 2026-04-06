@@ -17,6 +17,12 @@ while True:
 
     if action == "quit":
         break
-    # TODO: implement add and show
+    elif action == "add":
+        task = input("Enter a task: ")
+        tasks.append(task)
+    elif action == "show":
+        print("Tasks:")
+        for task in tasks:
+            print(f"- {task}")
 
 print("Goodbye!")
